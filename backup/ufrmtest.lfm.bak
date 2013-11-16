@@ -1,0 +1,8 @@
+object frmTest: TfrmTest
+  Left = 594
+  Height = 240
+  Top = 565
+  Width = 320
+  Caption = 'Test'
+  LCLVersion = '1.0.12.0'
+end

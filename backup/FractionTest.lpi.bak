@@ -34,25 +34,32 @@
         <PackageName Value="LCL"/>
       </Item1>
     </RequiredPackages>
-    <Units Count="2">
+    <Units Count="3">
       <Unit0>
         <Filename Value="FractionTest.lpr"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="FractionTest"/>
       </Unit0>
       <Unit1>
-        <Filename Value="unit1.pas"/>
+        <Filename Value="ufrmmain.pas"/>
         <IsPartOfProject Value="True"/>
-        <ComponentName Value="Form1"/>
+        <ComponentName Value="frmMain"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="Unit1"/>
+        <UnitName Value="ufrmMain"/>
       </Unit1>
+      <Unit2>
+        <Filename Value="ufrmtest.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmTest"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ufrmTest"/>
+      </Unit2>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
     <Version Value="11"/>
     <Target>
-      <Filename Value="FractionTest"/>
+      <Filename Value="./bin/FractionTest"/>
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
