@@ -3,7 +3,7 @@
   <ProjectSession>
     <Version Value="9"/>
     <BuildModes Active="Default"/>
-    <Units Count="3">
+    <Units Count="4">
       <Unit0>
         <Filename Value="FractionTest.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -14,6 +14,7 @@
         <Filename Value="ufrmmain.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="frmMain"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="ufrmMain"/>
         <EditorIndex Value="0"/>
@@ -28,9 +29,9 @@
         <Filename Value="ufrmtest.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="frmTest"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="ufrmTest"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
@@ -39,11 +40,27 @@
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit2>
+      <Unit3>
+        <Filename Value="ufrafraction.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fraFraction"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+        <UnitName Value="ufraFraction"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="17"/>
+        <CursorPos X="40" Y="36"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit3>
     </Units>
     <General>
       <ActiveWindowIndexAtStart Value="0"/>
     </General>
-    <JumpHistory Count="10" HistoryIndex="9">
+    <JumpHistory Count="11" HistoryIndex="10">
       <Position1>
         <Filename Value="ufrmmain.pas"/>
         <Caret Line="16" Column="31" TopLine="1"/>
@@ -84,6 +101,10 @@
         <Filename Value="ufrmmain.pas"/>
         <Caret Line="52" Column="39" TopLine="15"/>
       </Position10>
+      <Position11>
+        <Filename Value="ufrafraction.pas"/>
+        <Caret Line="25" Column="51" TopLine="1"/>
+      </Position11>
     </JumpHistory>
   </ProjectSession>
 </CONFIG>

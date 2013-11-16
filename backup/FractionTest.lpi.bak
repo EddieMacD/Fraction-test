@@ -34,7 +34,7 @@
         <PackageName Value="LCL"/>
       </Item1>
     </RequiredPackages>
-    <Units Count="3">
+    <Units Count="4">
       <Unit0>
         <Filename Value="FractionTest.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -44,6 +44,7 @@
         <Filename Value="ufrmmain.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="frmMain"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="ufrmMain"/>
       </Unit1>
@@ -51,9 +52,18 @@
         <Filename Value="ufrmtest.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="frmTest"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="ufrmTest"/>
       </Unit2>
+      <Unit3>
+        <Filename Value="ufrafraction.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fraFraction"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+        <UnitName Value="ufraFraction"/>
+      </Unit3>
     </Units>
   </ProjectOptions>
   <CompilerOptions>

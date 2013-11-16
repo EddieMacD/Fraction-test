@@ -8,19 +8,20 @@
         <Filename Value="FractionTest.lpr"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="FractionTest"/>
-        <UsageCount Value="20"/>
+        <UsageCount Value="21"/>
       </Unit0>
       <Unit1>
         <Filename Value="ufrmmain.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="frmMain"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="ufrmMain"/>
         <EditorIndex Value="0"/>
         <WindowIndex Value="0"/>
         <TopLine Value="19"/>
         <CursorPos X="3" Y="47"/>
-        <UsageCount Value="20"/>
+        <UsageCount Value="21"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
@@ -28,13 +29,15 @@
         <Filename Value="ufrmtest.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="frmTest"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="ufrmTest"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="1" Y="1"/>
-        <UsageCount Value="20"/>
+        <TopLine Value="13"/>
+        <CursorPos X="13" Y="17"/>
+        <UsageCount Value="21"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit2>
@@ -42,14 +45,14 @@
         <Filename Value="ufrafraction.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="fraFraction"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
         <UnitName Value="ufraFraction"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="23" Y="14"/>
-        <UsageCount Value="20"/>
+        <TopLine Value="17"/>
+        <CursorPos X="40" Y="36"/>
+        <UsageCount Value="21"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit3>
@@ -57,7 +60,7 @@
     <General>
       <ActiveWindowIndexAtStart Value="0"/>
     </General>
-    <JumpHistory Count="10" HistoryIndex="9">
+    <JumpHistory Count="13" HistoryIndex="12">
       <Position1>
         <Filename Value="ufrmmain.pas"/>
         <Caret Line="16" Column="31" TopLine="1"/>
@@ -98,6 +101,18 @@
         <Filename Value="ufrmmain.pas"/>
         <Caret Line="52" Column="39" TopLine="15"/>
       </Position10>
+      <Position11>
+        <Filename Value="ufrafraction.pas"/>
+        <Caret Line="25" Column="51" TopLine="1"/>
+      </Position11>
+      <Position12>
+        <Filename Value="ufrmtest.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position12>
+      <Position13>
+        <Filename Value="ufrmtest.pas"/>
+        <Caret Line="34" Column="18" TopLine="8"/>
+      </Position13>
     </JumpHistory>
   </ProjectSession>
 </CONFIG>

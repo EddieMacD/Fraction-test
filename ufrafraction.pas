@@ -12,17 +12,44 @@ type
   { TfraFraction }
 
   TfraFraction = class(TFrame)
-    xx : TLabel;
-    yyy : TLabel;
+    lblTop : TLabel;
+    lblBottom : TLabel;
   private
+    function GetDenominator : string;
+    function GetNumerator : string;
+    procedure SetDenominator(AValue : string);
+    procedure SetNumerator(AValue : string);
     { private declarations }
   public
-    { public declarations }
+    property Numerator : string read GetNumerator write SetNumerator;
+    property Denominator : string read GetDenominator write SetDenominator;
   end;
 
 implementation
 
 {$R *.lfm}
+
+{ TfraFraction }
+
+function TfraFraction.GetDenominator : string;
+begin
+  Result := lblBottom.Text;
+end;
+
+function TfraFraction.GetNumerator : string;
+begin
+  Result := lblTop.Text;
+end;
+
+procedure TfraFraction.SetDenominator(AValue : string);
+begin
+  lblBottom.Text := AValue;
+end;
+
+procedure TfraFraction.SetNumerator(AValue : string);
+begin
+  lblTop.Text := AValue;
+end;
 
 end.
 

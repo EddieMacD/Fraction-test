@@ -8,26 +8,26 @@ object fraFraction: TfraFraction
   TabOrder = 0
   DesignLeft = 931
   DesignTop = 564
-  object xx: TLabel
+  object lblTop: TLabel
     Left = 0
     Height = 16
     Top = 0
     Width = 29
     Align = alTop
     Alignment = taCenter
-    Caption = 'xx'
+    Caption = 'lblTop'
     Font.Style = [fsUnderline]
     ParentColor = False
     ParentFont = False
   end
-  object yyy: TLabel
+  object lblBottom: TLabel
     Left = 0
     Height = 16
     Top = 16
     Width = 29
     Align = alTop
     Alignment = taCenter
-    Caption = 'yyy'
+    Caption = 'lblBottom'
     ParentColor = False
   end
 end

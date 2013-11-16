@@ -8,7 +8,7 @@ object fraFraction: TfraFraction
   TabOrder = 0
   DesignLeft = 931
   DesignTop = 564
-  object xx: TLabel
+  object lblTop: TLabel
     Left = 0
     Height = 16
     Top = 0
@@ -20,7 +20,7 @@ object fraFraction: TfraFraction
     ParentColor = False
     ParentFont = False
   end
-  object yyy: TLabel
+  object lblBottom: TLabel
     Left = 0
     Height = 16
     Top = 16
