@@ -1,8 +1,134 @@
 object frmTest: TfrmTest
-  Left = 594
-  Height = 240
-  Top = 565
-  Width = 320
+  Left = 730
+  Height = 269
+  Top = 564
+  Width = 433
   Caption = 'Test'
+  ClientHeight = 269
+  ClientWidth = 433
   LCLVersion = '1.0.12.0'
+  object GroupBox1: TGroupBox
+    Left = 0
+    Height = 105
+    Top = 24
+    Width = 431
+    Anchors = [akTop, akLeft, akRight]
+    Caption = ' Question: '
+    ClientHeight = 88
+    ClientWidth = 427
+    TabOrder = 0
+    object Label1: TLabel
+      Left = 12
+      Height = 16
+      Top = 33
+      Width = 221
+      Caption = 'What would be equivalent to          ?'
+      ParentColor = False
+    end
+    inline fraFractionQuestion: TfraFraction
+      Left = 191
+      Top = 25
+    end
+  end
+  object GroupBox2: TGroupBox
+    Left = 0
+    Height = 105
+    Top = 128
+    Width = 431
+    Anchors = [akTop, akLeft, akRight]
+    Caption = ' Answer: '
+    ClientHeight = 88
+    ClientWidth = 427
+    TabOrder = 1
+    inline fraFraction1: TfraFraction
+      Left = 32
+      Top = 15
+    end
+    inline fraFraction2: TfraFraction
+      Left = 120
+      Top = 15
+      TabOrder = 1
+    end
+    inline fraFraction3: TfraFraction
+      Left = 201
+      Top = 15
+      TabOrder = 2
+    end
+    object radOption1: TRadioButton
+      Left = 12
+      Height = 24
+      Top = 18
+      Width = 24
+      TabOrder = 4
+    end
+    object radOption2: TRadioButton
+      Left = 93
+      Height = 24
+      Top = 18
+      Width = 24
+      TabOrder = 3
+    end
+    object radOption3: TRadioButton
+      Left = 174
+      Height = 24
+      Top = 18
+      Width = 24
+      TabOrder = 5
+    end
+    object radNoAnswer: TRadioButton
+      Left = 246
+      Height = 24
+      Top = 18
+      Width = 106
+      Caption = 'radNoAnswer'
+      Checked = True
+      TabOrder = 6
+      TabStop = True
+    end
+  end
+  object Panel1: TPanel
+    Left = 0
+    Height = 18
+    Top = 0
+    Width = 433
+    Align = alTop
+    BevelOuter = bvNone
+    ClientHeight = 18
+    ClientWidth = 433
+    TabOrder = 2
+    object prgTest: TProgressBar
+      Left = 60
+      Height = 18
+      Top = 0
+      Width = 373
+      Align = alClient
+      TabOrder = 0
+    end
+    object Label2: TLabel
+      Left = 0
+      Height = 18
+      Top = 0
+      Width = 60
+      Align = alLeft
+      Caption = 'Progress: '
+      ParentColor = False
+    end
+  end
+  object btnBack: TButton
+    Left = 0
+    Height = 25
+    Top = 240
+    Width = 75
+    Caption = '<< Back'
+    TabOrder = 3
+  end
+  object btnNext: TButton
+    Left = 356
+    Height = 25
+    Top = 240
+    Width = 75
+    Caption = 'Next >>'
+    OnClick = btnNextClick
+    TabOrder = 4
+  end
 end

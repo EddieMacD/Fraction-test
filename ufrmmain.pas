@@ -33,6 +33,8 @@ var
 
 implementation
 
+uses ufrmTest;
+
 {$R *.lfm}
 
 { TfrmMain }
@@ -44,7 +46,7 @@ end;
 
 procedure TfrmMain.btnGoClick(Sender : TObject);
 begin
-
+  frmTest.Show;
 end;
 
 procedure TfrmMain.lstTestSelectionChange(Sender : TObject; User : boolean);

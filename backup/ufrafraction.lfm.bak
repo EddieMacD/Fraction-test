@@ -15,7 +15,7 @@ object fraFraction: TfraFraction
     Width = 29
     Align = alTop
     Alignment = taCenter
-    Caption = 'lblTop'
+    Caption = 'xx'
     Font.Style = [fsUnderline]
     ParentColor = False
     ParentFont = False
@@ -27,7 +27,7 @@ object fraFraction: TfraFraction
     Width = 29
     Align = alTop
     Alignment = taCenter
-    Caption = 'lblBottom'
+    Caption = 'yyy'
     ParentColor = False
   end
 end

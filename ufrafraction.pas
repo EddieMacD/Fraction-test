@@ -33,22 +33,22 @@ implementation
 
 function TfraFraction.GetDenominator : string;
 begin
-  Result := lblBottom.Text;
+  Result := lblBottom.Caption;
 end;
 
 function TfraFraction.GetNumerator : string;
 begin
-  Result := lblTop.Text;
+  Result := lblTop.Caption;
 end;
 
 procedure TfraFraction.SetDenominator(AValue : string);
 begin
-  lblBottom.Text := AValue;
+  lblBottom.Caption := AValue;
 end;
 
 procedure TfraFraction.SetNumerator(AValue : string);
 begin
-  lblTop.Text := AValue;
+  lblTop.Caption := AValue;
 end;
 
 end.
